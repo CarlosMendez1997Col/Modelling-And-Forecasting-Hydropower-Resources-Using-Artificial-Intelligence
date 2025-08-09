@@ -1,21 +1,47 @@
 # Models and forecasts hydrological and energetic resources using ArcGIS API for Python and R
 
+## Use and install this repository
+
+HTTPS
+```CSS
+https://github.com/CarlosMendez1997Col/Evaluate-climate-change-using-ArcGIS-API-for-Python-and-ArcGIS-Maps-SDK-for-JavaScript.git
+```
+
+GitHub CLI
+```CSS
+gh repo clone CarlosMendez1997Col/Evaluate-climate-change-using-ArcGIS-API-for-Python-and-ArcGIS-Maps-SDK-for-JavaScript
+```
+
 ## Description
 
-Modeling and forecasting in hydrological resources and energy using the `LSTM (long short-term memory)` and `ResCNN` neural networks, in ArcGIS API for Python and R.
+Repository builded in `Arcgis for Python` and `R`.
+
+Models: `Neural Network Auto Regression (NNAR)`
+        `Long Short Term Memory (LSTM)`
+        `Convolutional Neural Network (ResCNN)`
 
 Each section is described below:
 
-* The first section, indicate how to create a Neural Network Auto Regression (NNAR) in R.
-* The second and third sections, explain how to create a `LSTM (long short-term memory)` and `ResCNN` neural networks in ArcGIS API for Python
-* The fourth section, share the Data, Time Series and Graphs used in this repository
-
+1. The first and second sections, forecasting data with `NNAR` and `LSTM`. 
+```html
+https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/1.%20Forecasting%20NNAR%20Neural%20Network
+https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/2.%20Forecasting%20LSTM%20Neural%20Network
+```
+2. The third and four sections, modeling data with `LSTM` and `ResCNN`.
+```html
+https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/3.%20Modeling%20LSTM%20Neural%20Network
+https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/4.%20Modeling%20ResCNN%20Neural%20Network
+```
+3. The five and six sections, share initial scrips of `NNAR` and `LSTM`
+```html
+https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/5.%20Original%20Data%20NNAR%20Network
+https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/6.%20Original%20Data%20LSTM%20and%20ResCNN%20Networks
+```
 ## Prerequisites and libraries
 
 ### LSTM and ResCNN Neural Networks in ArcGIS API for Python
 
 ```python
-
 import matplotlib.pyplot as plt
 import numpy as np
 import math
@@ -41,7 +67,6 @@ from arcgis.features import FeatureLayer, FeatureLayerCollection
 ### NNAR Neural Networks in R
 
 ```R
-
 library(forecast)
 library(timetk)
 library(dplyr)
@@ -83,22 +108,27 @@ Potential Evapotranspiration:[link](https://arcg.is/0L9iSy0)
 
 ## Credits and repository of data
 
-The data for the hydroelectric power plants are from the ONS (Operador Nacional do Sistema Elétrico). Available online in: [ONS website](https://dados.ons.org.br/)
-
 The data used for forecast precipitation and potential evapotranspiration are from the Nasa Earth re-pository, using the Giovanni (Geospatial Interactive Online Visualization ANd aNalysis Infrastructure). Available online in: [Nasa Giovanni Website](https://giovanni.gsfc.nasa.gov/giovanni/)
-
 
 ## Conflict of Interest.
 
-The authors declare that there is no conflict of interest in the publication of this data and that all authors have approved it for publication.
+The author declare that there is no conflict of interest in the publication of this data and have approved it for publication.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+Please make sure to update tests as appropriate. 
 
+## MIT License
+
+Copyright (c) 2025 Carlos Mendez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
