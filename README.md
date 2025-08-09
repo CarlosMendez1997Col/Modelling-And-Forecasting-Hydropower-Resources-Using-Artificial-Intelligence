@@ -85,7 +85,7 @@ library(readxl)
 Version `1.0`
 
 ```HTML
-https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/commits/Version1.0
+https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/releases
 ```
 
 ## Data acquisition and download
