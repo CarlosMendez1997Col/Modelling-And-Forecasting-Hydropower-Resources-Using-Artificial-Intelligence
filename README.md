@@ -4,12 +4,12 @@
 
 HTTPS
 ```CSS
-https://github.com/CarlosMendez1997Col/Evaluate-climate-change-using-ArcGIS-API-for-Python-and-ArcGIS-Maps-SDK-for-JavaScript.git
+https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R.git
 ```
 
 GitHub CLI
 ```CSS
-gh repo clone CarlosMendez1997Col/Evaluate-climate-change-using-ArcGIS-API-for-Python-and-ArcGIS-Maps-SDK-for-JavaScript
+gh repo clone CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R
 ```
 
 ## Description
