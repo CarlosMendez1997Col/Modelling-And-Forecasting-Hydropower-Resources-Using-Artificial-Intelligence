@@ -80,6 +80,14 @@ library(modeltime)
 library(readxl)
 ```
 
+## Versions and releases
+
+Version `1.0`
+
+```HTML
+https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/commits/Version1.0
+```
+
 ## Data acquisition and download
 
 ### The data used for build the time series and the LSTM and ResCNN neural networks, include information about 3 Hydroelectric Power Plants (HPP):
