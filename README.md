@@ -25,17 +25,14 @@ Each section is described below:
 1. The first and second sections, forecasting data with `NNAR` and `LSTM`. 
 ```html
 https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/1.%20Forecasting%20NNAR%20Neural%20Network
-https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/2.%20Forecasting%20LSTM%20Neural%20Network
 ```
 2. The third and four sections, modeling data with `LSTM` and `ResCNN`.
 ```html
 https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/3.%20Modeling%20LSTM%20Neural%20Network
-https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/4.%20Modeling%20ResCNN%20Neural%20Network
 ```
 3. The five and six sections, share initial scrips of `NNAR` and `LSTM`
 ```html
 https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/5.%20Original%20Data%20NNAR%20Network
-https://github.com/CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic-resources-using-ArcGIS-API-for-Python-and-R/tree/main/6.%20Original%20Data%20LSTM%20and%20ResCNN%20Networks
 ```
 ## Prerequisites and libraries
 
