@@ -14,7 +14,7 @@ gh repo clone CarlosMendez1997Col/Model-and-forecasts-hydrological-and-energetic
 
 ## Description
 
-Repository builded in `Arcgis for Python` and `R`.
+Repository built in `Arcgis for Python` and `R`.
 
 Models: `Neural Network Auto Regression (NNAR)`
         `Long Short Term Memory (LSTM)`
